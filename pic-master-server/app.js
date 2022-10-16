@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var fs = require('fs')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -26,7 +27,7 @@ app.use('/uploadimg',uploadimg);
 
 // render the website
 app.get('*', function(req, res) {
-  const html = fs.readFileSync(path.resolve(__dirname, './picmaster/dist/index.html'), 'utf-8')
+  const html = fs.readFileSync(path.resolve(__dirname, '../pic-master-front/dist/index.html'), 'utf-8')
   res.send(html)
 })
 
