@@ -106,3 +106,149 @@
 [0mGET /api/uploadimg/getToken [32m200 [0m1.205 ms - 142[0m
 [0mGET /api/uploadimg/hashName [32m200 [0m87.970 ms - 71[0m
 [0mGET /img/icons8-github.e509c107.svg [32m200 [0m0.519 ms - 2485[0m
+
+> pic-master-server@0.0.0 start
+> node ./bin/www
+
+Port 3000 is already in use
+
+> pic-master-server@0.0.0 start
+> node ./bin/www
+
+node:internal/modules/cjs/loader:988
+  throw err;
+  ^
+
+Error: Cannot find module 'uuid/v1'
+Require stack:
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js:7:14)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www'
+  ]
+}
+
+> pic-master-server@0.0.0 start
+> node ./bin/www
+
+node:internal/modules/cjs/loader:988
+  throw err;
+  ^
+
+Error: Cannot find module 'uuid/v1'
+Require stack:
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js:7:14)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www'
+  ]
+}
+
+> pic-master-server@0.0.0 start
+> node ./bin/www
+
+node:internal/modules/cjs/loader:988
+  throw err;
+  ^
+
+Error: Cannot find module 'uuid/v1'
+Require stack:
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js:7:14)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www'
+  ]
+}
+
+> pic-master-server@0.0.0 start
+> node ./bin/www
+
+node:internal/modules/cjs/loader:988
+  throw err;
+  ^
+
+Error: Cannot find module 'uuid/v1'
+Require stack:
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js
+- /home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js:7:14)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/routes/uploadimg.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/app.js',
+    '/home/ubuntu/Projects/pic-master2.0/pic-master-server/bin/www'
+  ]
+}
+node:internal/modules/cjs/loader:988
+  throw err;
+  ^
+
+Error: Cannot find module '/bin/www'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+[0mGET /home [32m200 [0m4.050 ms - 725[0m
+[0mGET /js/chunk-vendors.a57b207b.js [36m304 [0m1.517 ms - -[0m
+[0mGET /js/app.70e0505c.js [36m304 [0m0.441 ms - -[0m
+[0mGET /css/chunk-vendors.0b0c58b7.css [36m304 [0m0.628 ms - -[0m
+[0mGET /css/app.d5c30a84.css [36m304 [0m0.487 ms - -[0m
+[0mGET /img/picmaster.85df57fe.svg [36m304 [0m0.831 ms - -[0m
+[0mGET /img/icons8-github.e509c107.svg [36m304 [0m1.153 ms - -[0m
+[0mGET /fonts/element-icons.ff18efd1.woff [36m304 [0m0.280 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.930 ms - 4286[0m

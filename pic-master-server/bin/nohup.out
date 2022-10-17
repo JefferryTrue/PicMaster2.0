@@ -1,0 +1,31 @@
+[0mGET /home [32m200 [0m4.037 ms - 725[0m
+[0mGET /css/app.d5c30a84.css [36m304 [0m1.434 ms - -[0m
+[0mGET /js/chunk-vendors.a57b207b.js [36m304 [0m1.306 ms - -[0m
+[0mGET /css/chunk-vendors.0b0c58b7.css [36m304 [0m1.516 ms - -[0m
+[0mGET /js/app.70e0505c.js [36m304 [0m1.684 ms - -[0m
+[0mGET /img/picmaster.85df57fe.svg [36m304 [0m0.878 ms - -[0m
+[0mGET /img/icons8-github.e509c107.svg [36m304 [0m0.700 ms - -[0m
+[0mGET /fonts/element-icons.ff18efd1.woff [36m304 [0m0.453 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m2.064 ms - 4286[0m
+[0mGET /home [36m304 [0m0.854 ms - -[0m
+[0mGET /css/app.d5c30a84.css [36m304 [0m0.717 ms - -[0m
+[0mGET /js/chunk-vendors.a57b207b.js [36m304 [0m0.667 ms - -[0m
+[0mGET /js/app.70e0505c.js [36m304 [0m0.366 ms - -[0m
+[0mGET /css/chunk-vendors.0b0c58b7.css [36m304 [0m0.758 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.422 ms - -[0m
+[0mGET /home [36m304 [0m0.666 ms - -[0m
+[0mGET /css/app.d5c30a84.css [36m304 [0m0.394 ms - -[0m
+[0mGET /js/chunk-vendors.a57b207b.js [36m304 [0m0.301 ms - -[0m
+[0mGET /js/app.70e0505c.js [36m304 [0m1.578 ms - -[0m
+[0mGET /css/chunk-vendors.0b0c58b7.css [36m304 [0m0.966 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.522 ms - -[0m
+11d8a2c04e2511ed8993f54224cddcc4
+[0mGET /api/uploadimg/hashName [32m200 [0m1.456 ms - 43[0m
+[0mGET /api/uploadimg/getToken [32m200 [0m1.312 ms - 142[0m
+13e95a504e2511ed8993f54224cddcc4
+[0mGET /api/uploadimg/hashName [32m200 [0m0.725 ms - 43[0m
+[0mGET /api/uploadimg/getToken [32m200 [0m0.576 ms - 142[0m
+17c07a004e2511ed8993f54224cddcc4
+[0mGET /api/uploadimg/hashName [32m200 [0m0.605 ms - 43[0m
+[0mGET /api/uploadimg/getToken [32m200 [0m0.535 ms - 142[0m
+[0mPOST /boaform/admin/formLogin [33m404 [0m305.552 ms - 1373[0m

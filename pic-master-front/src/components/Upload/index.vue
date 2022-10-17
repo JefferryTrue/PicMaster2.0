@@ -46,45 +46,46 @@ export default {
             });
             oInput.remove()
       },
-        async upload(){
-      if(this.$refs.file.files.length === 0){
-        alert('请选择文件');
-        return ;
-      }
-      const config = {
-        useCdnDomain: true,
-        region: 'z2'
-    };
-      const observer = {
-        next(res){
-          // ...
-        },
-        error(err){
-          console.log('上传失败')
-        },
-        complete(res){
-          console.log('上传成功')
+      upload(){
+        if(this.$refs.file.files.length === 0){
+          alert('请选择文件');
+          return ;
         }
+        const config = {
+          useCdnDomain: true,
+          region: 'z2'
+        };
+        const observer = {
+          next(res){
+            // ...
+          },
+          error(err){
+            console.log('上传失败')
+          },
+          complete(res){
+            console.log('上传成功')
+          }
+        }
+        const putExtra = {};
+        let file = this.$refs.file.files[0];
+        var _token = ''
+
+        var fileBack = "";
+        axios.get('api/uploadimg/hashName').then(res => {
+          fileBack = res.data.hash;
+          axios.get('api/uploadimg/getToken').then(res => {
+            console.log(res.data.token)
+            _token = res.data.token;
+            console.log(fileBack);
+            const observable = qiniu.upload(file, fileBack, _token, putExtra, config)
+            const subscription = observable.subscribe(observer)
+            this.imgUrl = 'http://rju4cbt6f.hn-bkt.clouddn.com/'+fileBack;
+        })
+        });
+
+        
       }
-      const putExtra = {};
-      let file = this.$refs.file.files[0];
-      var _token = ''
 
-      var fileBack = "";
-      axios.get('api/uploadimg/hashName').then(res => {
-        fileBack = res.data.hash;
-        fileBack = fileBack.replace("/","a");
-        fileBack = fileBack.replace(".","b");
-      });
-
-      axios.get('api/uploadimg/getToken').then(res => {
-        console.log(res.data)
-        _token = res.data.token
-        const observable = qiniu.upload(file, fileBack, _token, putExtra, config)
-        const subscription = observable.subscribe(observer)
-        this.imgUrl = 'http://rju4cbt6f.hn-bkt.clouddn.com/'+fileBack;
-      })
-    }
     }
 }
 </script>
