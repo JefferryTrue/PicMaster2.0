@@ -53,14 +53,14 @@ export default {
       }
       const config = {
         useCdnDomain: true,
-        region: 'cn-east-2'
+        region: 'z2'
     };
       const observer = {
         next(res){
           // ...
         },
         error(err){
-          // ...
+          console.log('上传失败')
         },
         complete(res){
           console.log('上传成功')
@@ -70,12 +70,19 @@ export default {
       let file = this.$refs.file.files[0];
       var _token = ''
 
-      axios.get('api/uploadImg/getToken').then(res => {
-        console.log(res.data.token)
+      var fileBack = "";
+      axios.get('api/uploadimg/hashName').then(res => {
+        fileBack = res.data.hash;
+        fileBack = fileBack.replace("/","a");
+        fileBack = fileBack.replace(".","b");
+      });
+
+      axios.get('api/uploadimg/getToken').then(res => {
+        console.log(res.data)
         _token = res.data.token
-        const observable = qiniu.upload(file, file.name, _token, putExtra, config)
+        const observable = qiniu.upload(file, fileBack, _token, putExtra, config)
         const subscription = observable.subscribe(observer)
-        this.imgUrl = 'http://rh4dtz9af.bkt.clouddn.com/'+file.name
+        this.imgUrl = 'http://rju4cbt6f.hn-bkt.clouddn.com/'+fileBack;
       })
     }
     }

@@ -9,7 +9,7 @@
             <a href="#intro">首页</a>
             <a href="#upload">上传</a>
             <a href="#statement">声明</a>
-            <a href="https://gitee.com/JefferryEx/PicMaster"><img src="../../assets/githublogo.png"></a>
+            <a href="https://gitee.com/JefferryEx/pic-master2.0"><img src="../../assets/githublogo.png"></a>
         </div>
     </div>
   </div>
